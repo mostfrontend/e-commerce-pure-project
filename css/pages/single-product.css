@@ -1,0 +1,26 @@
+/** single topbar start**/
+.single-top-bar {
+  margin-top: 30px;
+}
+/*! single topbar end**/
+
+/** Single product gallery start*/
+.single-content {
+  margin-top: 30px 0;
+}
+/*! Single product gallery end*/
+.single-content .site-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+/** responsive*/
+@media (max-width: 768px) {
+  .site-main {
+    flex-direction: column;
+  }
+  .site-main .product-info {
+    width: 100%;
+  }
+}

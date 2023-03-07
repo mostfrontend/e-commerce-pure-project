@@ -1,0 +1,8 @@
+.blog-page {
+  margin-top: 40px;
+}
+
+.blog-page .blog-list .blog-item:hover {
+  transform: scale(1.04);
+  transition: transform 0.3s ease;
+}

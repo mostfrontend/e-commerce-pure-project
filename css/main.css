@@ -1,0 +1,47 @@
+/** global css */
+
+@import url(base.css);
+
+/** Layout */
+@import url(./layout.css/header.css);
+
+/** Components */
+@import url(./components/modal-search.css);
+
+/** Components Slider.css */
+@import url('./components/slider.css');
+
+/** Categories css */
+@import url(./pages/home.css);
+
+@import url(./components/category-item.css);
+
+@import url(./components/product-item.css);
+
+@import url(./components/campaigns-item.css);
+
+@import url(./components/blog-item.css);
+
+@import url(./components/campaign-single.css);
+
+@import url(./layout.css/footer.css);
+
+/** Header Right Button css */
+@import url(./pages/contact.css);
+@import url(./pages/account.css);
+@import url(./pages/cart.css);
+
+/** Single Product css */
+@import url(./pages/single-product.css);
+@import url(./components/single-product/breadcrumb.css);
+@import url(./components/single-product/product-gallery.css);
+@import url(./components/single-product/product-info.css);
+@import url(./components/single-product/products-tabs.css);
+@import url(./components/reviews.css);
+
+/** Single Blog & Blog Pages css */
+@import url(./pages/blog-page.css);
+@import url(./pages/single-blog.css);
+
+/** Back to topside css */
+@import url('./components/backtotop.css');

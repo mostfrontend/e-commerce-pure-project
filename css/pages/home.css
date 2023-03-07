@@ -1,0 +1,122 @@
+.section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+/** Categories start */
+.categories {
+  margin: 40px 0;
+}
+.categories .category-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+/** Categories end */
+
+/**! products start */
+.products {
+  margin-bottom: 40px 0;
+}
+.products .product-list {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px; */
+}
+/**! products end */
+
+/*? campaigns start*/
+.campaigns .campaigns-wrapper {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+/*? campaigns end*/
+
+/*todo blogs start*/
+.blogs .blog-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+/*todo blogs end*/
+
+/*! Responsive */
+/** Responsive blogs area*/
+@media (max-width: 768px) {
+  .blogs .blog-list {
+    grid-template-columns: 1fr;
+  }
+}
+/*? Brands Start*/
+.brands {
+  margin: 40px 0;
+}
+.brands-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  padding: 30px 5px;
+  flex-wrap: wrap;
+}
+.brands-list .brands-item {
+  opacity: 0.5;
+  transition: 0.3s ease-in-out opacity;
+}
+
+.brands-list .brands-item:hover {
+  opacity: 1;
+}
+/*? Brands End*/
+
+/*todo Policy Start*/
+.policy {
+  margin-top: 40px;
+  border: 1px solid #d3d3d3;
+}
+.policy .policy-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  flex-wrap: wrap;
+}
+.policy .policy-list .policy-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.policy .policy-item i {
+  font-size: 50px;
+}
+.policy .policy-item > i:hover {
+  transform: scale(1.1);
+  transition: tranform 0.4s ease;
+  color: #1367ef;
+}
+.policy .policy-item strong {
+  font-weight: 600;
+}
+.policy .policy-item span {
+  font-size: 12px;
+}
+
+.policy-list .policy-info {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .policy .policy-list {
+    flex-direction: column;
+  }
+}
+/*todo Policy End*/

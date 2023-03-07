@@ -1,0 +1,37 @@
+.blog-list {
+  text-align: center;
+}
+
+.blog-list .blog-image img {
+  width: 100%;
+}
+.blog-list .blog-image {
+  display: flex;
+}
+.blog-item .blog-info {
+  padding: 30px 10px 25px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-item .blog-info {
+  box-shadow: 0px 0px 10px -7px rgb(1, 14, 24);
+}
+.blog-item .blog-info-top {
+  font-size: 14px;
+  color: #949497;
+  margin-bottom: 10px;
+}
+
+.blog-item .blog-info-middle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.blog-item .blog-info-bottom a {
+  font-size: 14px;
+  border-bottom: 1px solid;
+}
+.blog-item .blog-info-bottom a:hover {
+  color: #1367ef;
+}

@@ -1,0 +1,15 @@
+.breadcrumb ul {
+  display: flex;
+}
+.breadcrumb ul li {
+  font-size: 12px;
+}
+.breadcrumb ul li:not(:last-child)::after {
+  content: '/';
+  color: #dee0ea;
+  margin: 0 5px;
+}
+.breadcrumb ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
